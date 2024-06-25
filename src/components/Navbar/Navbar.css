@@ -1,0 +1,77 @@
+.navbar{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    width: 100%;
+    color: white;
+
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+
+            img{
+                object-fit:cover;
+                height: 150px;
+                width: 150px;
+            }
+        }
+    }
+
+    .search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .searchBar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+
+
+            input{
+                background-color: transparent;
+                border: 2px solid white;
+                padding: 10px 20px;
+                border-radius: 20px;
+                color: white;
+                
+            }
+            input::placeholder{
+                color: white;
+
+            }
+            
+        }
+    }
+
+    .offer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            cursor: pointer;
+            p{
+                text-align: center;
+                font-size: 20px;
+                color: white;
+                border-bottom:1px solid white ;
+            }
+        }
+    }
+
+    
+}
